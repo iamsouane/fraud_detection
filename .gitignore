@@ -1,0 +1,21 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Données (CRUCIAL : creditcard.csv fait 150 Mo)
+data/
+*.csv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Modèles sérialisés
+*.joblib
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
